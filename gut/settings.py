@@ -5,4 +5,3 @@ config.read('config.ini')
 
 root = config.get('APP', 'ROOT')
 objects = config.get('APP', 'OBJECTS')
-debug = config.get('APP', 'DEBUG')
