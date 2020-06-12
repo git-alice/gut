@@ -5,7 +5,7 @@ from gut.hash import hash_object
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--hash_object', action="store", nargs=2)
-parser.add_argument('--init', action="store")
+parser.add_argument('--init', action="store_true", )
 args = parser.parse_args()
 
 if args.init:
